@@ -28,7 +28,6 @@ export class TextInputComponent implements ControlValueAccessor,OnInit{
   @Input() allowOnlyText: boolean = false;
 
   @Input() isPrefix: boolean = false;
-  isIconsDefined: boolean = false;
   input!: string;
 
   onChange: any = () => { };

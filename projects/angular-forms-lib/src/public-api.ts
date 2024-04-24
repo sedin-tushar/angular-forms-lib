@@ -4,5 +4,4 @@ export * from './lib/dropdown/dropdown.component';
 export * from './lib/radio/radio.component';
 export * from './lib/text-area/text-area.component';
 export * from './lib/validation-errors/validation-errors.component';
-export * from './lib/helpers/custom-validators';
 export * from './lib/helpers/form-control-helper';
