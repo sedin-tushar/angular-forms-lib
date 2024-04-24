@@ -5,21 +5,21 @@
   "projects": {
     "AngularFormsLib": {
       "projectType": "library",
-      "root": "projects/angular-forms-lib",
-      "sourceRoot": "projects/angular-forms-lib/src",
+      "root": "projects/sd-angular-forms-lib",
+      "sourceRoot": "projects/sd-angular-forms-lib/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/angular-forms-lib/ng-package.json"
+            "project": "projects/sd-angular-forms-lib/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/angular-forms-lib/tsconfig.lib.prod.json"
+              "tsConfig": "projects/sd-angular-forms-lib/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/angular-forms-lib/tsconfig.lib.json"
+              "tsConfig": "projects/sd-angular-forms-lib/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -28,10 +28,10 @@
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
             "styles": [
-                "projects/angular-forms-lib/src/styles.scss",
-                "projects/angular-forms-lib/src/**/*.scss"
+                "projects/sd-angular-forms-lib/src/styles.scss",
+                "projects/sd-angular-forms-lib/src/**/*.scss"
             ],
-            "tsConfig": "projects/angular-forms-lib/tsconfig.spec.json",
+            "tsConfig": "projects/sd-angular-forms-lib/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"

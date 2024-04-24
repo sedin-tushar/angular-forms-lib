@@ -4,7 +4,7 @@
   "compilerOptions": {
     "paths": {
       "AngularFormsLib": [
-        "./dist/angular-forms-lib"
+        "./dist/sd-angular-forms-lib"
       ]
     },
     "outDir": "./dist/out-tsc",

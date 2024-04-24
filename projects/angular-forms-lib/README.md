@@ -5,7 +5,7 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 ## Code scaffolding
 
 Run `ng generate component component-name --project AngularFormsLib` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project AngularFormsLib`.
-> Note: Don't forget to add `--project AngularFormsLib` or else it will be added to the default project in your `angular.json` file. 
+> Note: Don't forget to add `--project AngularFormsLib` or else it will be added to the default project in your `angular.json` file.
 
 ## Build
 
@@ -13,7 +13,7 @@ Run `ng build AngularFormsLib` to build the project. The build artifacts will be
 
 ## Publishing
 
-After building your library with `ng build AngularFormsLib`, go to the dist folder `cd dist/angular-forms-lib` and run `npm publish`.
+After building your library with `ng build AngularFormsLib`, go to the dist folder `cd dist/sd-angular-forms-lib` and run `npm publish`.
 
 ## Running unit tests
 

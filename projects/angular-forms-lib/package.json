@@ -1,5 +1,5 @@
 {
-  "name": "angular-forms-lib",
+  "name": "sd-angular-forms-lib",
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^17.3.0",
