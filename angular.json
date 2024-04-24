@@ -27,16 +27,20 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "styles": [
+                "projects/angular-forms-lib/src/styles.scss",
+                "projects/angular-forms-lib/src/**/*.scss"
+            ],
             "tsConfig": "projects/angular-forms-lib/tsconfig.spec.json",
             "polyfills": [
               "zone.js",
               "zone.js/testing"
             ]
+            }
           }
         }
       }
-    }
-  },
+    },
   "cli": {
     "analytics": false
   }
